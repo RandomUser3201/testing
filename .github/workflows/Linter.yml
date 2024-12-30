@@ -16,4 +16,3 @@ jobs:
            uses: docker://github/super-linter:latest
            env:
              VALIDATE_CSHARP: true
-	  
