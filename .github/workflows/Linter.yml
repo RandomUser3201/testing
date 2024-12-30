@@ -15,4 +15,5 @@ jobs:
          - name: Super-Linter
            uses: docker://github/super-linter:latest
            env:
-             VALIDATE_CSHARP: true
+             VALIDATE_CSHARP: true 
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
