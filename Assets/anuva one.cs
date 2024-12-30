@@ -16,7 +16,7 @@ public class anuvaone : MonoBehaviour
 
         Debug.Log("wagwan 2       .      .");
 
-        Debug.Log("wagwan");     
+        Debug.Log("wagwan");
     }
 
 
